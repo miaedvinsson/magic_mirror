@@ -9,3 +9,4 @@ $json = file_get_contents('api.sl.se/api2/realtimedepartures.<FORMAT>?key=<YOUR 
 header('Content-Type: application/json');
 echo $json;
 ?>
+
