@@ -51,7 +51,7 @@ $(document).ready(function(){
         var time = formatTimeLeft(bus);
         if (time != null) {
           if(i==0){
-            $('#busstidtabell .times').append('<p class="firstlistitem">' + time + '</p>'); //this is for making the first item in the list bigger but when counting down the list items will be erased one by one so it doesn't work very well...
+            $('#busstidtabell .times').append('<p class="firstlistitem">' + time + '</p>'); //this is for making the first item in the list bigger
           }else
              $('#busstidtabell .times').append('<p>' + time + '</p>');
         }
