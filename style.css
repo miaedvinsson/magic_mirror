@@ -1,0 +1,30 @@
+body{
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Helvetica;
+	margin-left: 2em;
+}
+
+#clock{
+	font-size: 10em;
+	display: inline;
+}
+#date{
+	font-size: 1.5em;
+	display: inline;
+}
+.timetable{
+	font-size: 1.2em;
+	margin-top: 1.5em;
+}
+#busstidtabell{
+	margin-top: 3em;
+}
+.firstlistitem{
+	font-weight: bold;
+}
+.img{
+	width:1em;
+	height: 1em
+}
+
